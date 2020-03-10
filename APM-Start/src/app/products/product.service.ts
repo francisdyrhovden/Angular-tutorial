@@ -19,6 +19,7 @@ export class ProductService {
             catchError(this.handleError)
         );
     }
+    
 
     private handleError(err: HttpErrorResponse){
         let errorMessage = '';
